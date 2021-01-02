@@ -31,6 +31,9 @@ dependencies:
   fluro: ^1.7.8
   url_launcher: ^5.5.2
   firebase_auth: ^0.16.1
+  provider: ^4.3.2+2
+  stripe_payment: ^1.0.9
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -55,9 +58,11 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+      - Graphics/Webp.net-resizeimage.png
+      - Graphics/social-feed-colour-400px--1-.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
